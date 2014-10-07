@@ -1,18 +1,20 @@
+#ifndef Matrix_h
+#define Matrix_h
+
 #include <iostream>
 
-#ifndef MATRIX_H
-#define	MATRIX_H
-
-class Matrix {
+class Matrix
+{
 public:
-    Matrix();
-    virtual ~Matrix();
-    void ausgabe();
+	Matrix(void);
+	virtual ~Matrix(void);
+	void ausgabe();
+
 protected:
-    int m_Zeilen;
-    int m_Spalten;
-    float m_Element[2];
+	int m_Zeilen, m_Spalten;
+	float m_Element[2];
+
 };
 
-#endif	/* MATRIX_H */
+#endif
 

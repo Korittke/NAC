@@ -5,6 +5,8 @@
                    displayName="Header Files"
                    projectFiles="true">
       <itemPath>Matrix.h</itemPath>
+      <itemPath>Vektor.h</itemPath>
+      <itemPath>Vektor2D.h</itemPath>
     </logicalFolder>
     <logicalFolder name="ResourceFiles"
                    displayName="Resource Files"
@@ -13,8 +15,10 @@
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
+      <itemPath>Main.cpp</itemPath>
       <itemPath>Matrix.cpp</itemPath>
-      <itemPath>main.cpp</itemPath>
+      <itemPath>Vektor.cpp</itemPath>
+      <itemPath>Vektor2D.cpp</itemPath>
     </logicalFolder>
     <logicalFolder name="TestFiles"
                    displayName="Test Files"
@@ -38,11 +42,19 @@
       </toolsSet>
       <compileType>
       </compileType>
+      <item path="Main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
       <item path="Matrix.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="Matrix.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      <item path="Vektor.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Vektor.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Vektor2D.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Vektor2D.h" ex="false" tool="3" flavor2="0">
       </item>
     </conf>
     <conf name="Release" type="1">
@@ -65,11 +77,19 @@
           <developmentMode>5</developmentMode>
         </asmTool>
       </compileType>
+      <item path="Main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
       <item path="Matrix.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="Matrix.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      <item path="Vektor.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Vektor.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Vektor2D.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Vektor2D.h" ex="false" tool="3" flavor2="0">
       </item>
     </conf>
   </confs>
