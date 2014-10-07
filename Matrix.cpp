@@ -1,16 +1,16 @@
 #include "Matrix.h"
 
-Matrix::Matrix(): m_Zeilen(2), m_Spalten(1) {
-    m_Element[0] = 0;
-    m_Element[1] = 0;
+Matrix::Matrix(void): m_Zeilen(2), m_Spalten(1) {
+    for (int i(0); i < m_Spalten * m_Zeilen; i++)
+        m_Element[i] = 0.f;
     std::cout << "Standartkonstruktor von Matrix wurde aufgerufen" << std::endl;
 }
 
-Matrix::~Matrix() {
+void Matrix::ausgabe() {
+    for (int i(0); i < m_Spalten * m_Zeilen; i++)
+        std::cout << ((i == 0) ? "" : ", ") << m_Element[i];
+    std::cout << std::endl;
 }
 
-Matrix::ausgabe() {
-    for (int i = 0; i < m_Zeilen * m_Spalten; ++i) {
-        std::cout << m_Element[i] << std::endl;
-    }
+Matrix::~Matrix(void) {
 }
